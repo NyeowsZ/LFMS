@@ -15,6 +15,8 @@
     },
     "dependencies": {
         "@tailwindcss/postcss": "^4.1.5",
+        "alpinejs": "^3.14.9",
+        "aos": "^2.3.4",
         "postcss": "^8.5.3"
     }
 }

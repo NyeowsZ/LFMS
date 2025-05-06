@@ -13,11 +13,11 @@
                     .</p>
 
                     <div class="text-xl mt-5 space-x-2 font-semibold space-y-2">
-                        <button class="px-4 py-3 bg-accent text-white">
+                        <button class="px-4 py-3 bg-accent text-primary">
                             Report Lost Item
                         </button>
 
-                        <button class="px-4 py-3 bg-accent text-white">
+                        <button class="px-4 py-3 bg-accent text-primary">
                             Search Found Items
                         </button>
                     </div>
@@ -30,19 +30,19 @@
         <div class="w-[100vw] h-[100vh] md:w-130 md:h-[100vh] bg-accent flex items-center justify-center p-15">
 
             {{-- Login Form Main Container --}}
-            <div class="size-full text-white md:px-10 font-poppins">
+            <div class="size-full text-primary md:px-10 font-poppins">
 
                 <img data-aos="zoom-out-down" src="{{ asset('images/lf-logo.svg') }}" class="my-10 size-30 mx-auto invert drop-shadow-2xl drop-shadow-black">
 
                 <h1 data-aos="fade-up" class="text-4xl font-bold mx-auto w-fit">Login</h1>
                 
                 <div class="input-group mt-10 text-xl space-y-2 relative">
-                    <input type="text" name="" placeholder="" class="font-normal border-b-2 border-white w-full outline-0">
+                    <input type="text" name="" placeholder="" class="font-normal border-b-2 border-primary w-full outline-0">
                     <label>ID Number</label>
                 </div>
 
                 <div class="input-group mt-5 text-xl space-y-2 relative">
-                    <input type="password" name="" placeholder="" class="font-normal border-b-2 border-white w-full outline-0">
+                    <input type="password" name="" placeholder="" class="font-normal border-b-2 border-primary w-full outline-0">
                     <label>Password</label>
                 </div>
 
