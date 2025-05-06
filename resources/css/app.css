@@ -1,0 +1,48 @@
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url('../fonts/Merriweather/Merriweather.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+@import 'tailwindcss';
+
+
+
+
+@theme {
+    --font-poppins: 'Poppins';
+    --font-merri: 'Merriweather';
+
+    /* --color-primary: oklch(1 0 0);
+    --color-accent: oklch(.666 .179 58.318);    */
+
+    --color-primary: oklch(1 0 0);
+    --color-accent: oklch(.21 .034 264.665);
+}
+
+button{
+    @apply cursor-pointer;
+}
+
+
+.input-group input+label{
+    @apply absolute left-0 select-none pointer-events-none transition-all font-bold text-[rgba(255,255,255,0.8)];
+}
+
+.input-group input:hover+label,
+.input-group input:not(:placeholder-shown)+label,
+.input-group input:focus+label
+ {
+    @apply -translate-y-6 text-lg text-primary;
+}
